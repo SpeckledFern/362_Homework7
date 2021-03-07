@@ -7,6 +7,8 @@ class TestPrograms(unittest.TestCase):
       self.assertEqual(programs.output_at(6), "Fizz")
       self.assertEqual(programs.output_at(30), "FizzBuzz")
       self.assertEqual(programs.list_print(), 100)
+   def test_leap(self):
+      self.assertEqual(programs.leap(4), "true")
 
 
 if __name__ == "__main__":
