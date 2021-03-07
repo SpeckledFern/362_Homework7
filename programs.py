@@ -13,6 +13,9 @@ def list_print():
    return x
 def leap(y):
    if(y%4 == 0):
-      return "true"
+      if (y%100 == 0):
+         return "false"
+      else:
+         return "true"
    else:
       return "false"
