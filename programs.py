@@ -7,3 +7,8 @@ def output_at(x):
       return "Fizz"
    else:
       return x
+def list_print():
+   for x in range(1,101):
+      print(output_at(x))
+
+   return x
