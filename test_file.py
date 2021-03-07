@@ -6,6 +6,7 @@ class TestPrograms(unittest.TestCase):
       self.assertEqual(programs.output_at(5), "Buzz")
       self.assertEqual(programs.output_at(6), "Fizz")
       self.assertEqual(programs.output_at(30), "FizzBuzz")
+      self.assertEqual(programs.output_at(11), "11")
 
 
 if __name__ == "__main__":
