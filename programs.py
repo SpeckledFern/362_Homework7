@@ -5,3 +5,5 @@ def output_at(x):
       return "Buzz"
    elif(x%3 == 0):
       return "Fizz"
+   else:
+      return x
