@@ -11,6 +11,7 @@ class TestPrograms(unittest.TestCase):
       self.assertEqual(programs.leap(4), "true")
       self.assertEqual(programs.leap(5), "false")
       self.assertEqual(programs.leap(8), "true")
+      self.assertEqual(programs.leap(2000), "true")
 
 
 if __name__ == "__main__":
