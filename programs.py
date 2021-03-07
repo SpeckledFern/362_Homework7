@@ -10,5 +10,7 @@ def output_at(x):
 def list_print():
    for x in range(1,101):
       print(output_at(x))
-
    return x
+def leap(y):
+   if(y%4 == 0):
+      return "true"
