@@ -10,6 +10,7 @@ class TestPrograms(unittest.TestCase):
    def test_leap(self):
       self.assertEqual(programs.leap(4), "true")
       self.assertEqual(programs.leap(5), "false")
+      self.assertEqual(programs.leap(8), "true")
 
 
 if __name__ == "__main__":
